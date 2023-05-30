@@ -1,76 +1,54 @@
 import { useState, useEffect } from "react";
-import GenerateCatFact from "./components/GenerateCatFact";
+// import Axios from "axios";
+
+// import Excuser from "./components/Excuser";
 
 function App() {
-  const [catFacts, setCatFacts] = useState([]);
+  const categories = ["party", "family", "office"];
+  // The Excuse App section
+  const [category, setCategory] = useState("");
 
-  const generateCatFact = async () => {
-    try {
-      const res = await fetch("https://catfact.ninja/fact");
-      const data = await res.json();
-      // console.log(data)
+  const [excuse, setExcuse] = useState([]);
 
-      // Send POST request to your JSON server endpoint
-      const response = await fetch("http://localhost:5000/cat-facts", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      });
-
-      const savedData = await response.json();
-
-      setCatFacts([...catFacts, savedData]);
-    } catch (error) {
-      console.error(error);
-    }
+  const selectCategory = (name) => {
+    setCategory(name)
+    console.log(category);
   };
 
   useEffect(() => {
-    const getFacts = async () => {
+    const fetchExcuse = async () => {
       try {
-        const dataFromServer = await fetchFactsFromServer();
-        setCatFacts(dataFromServer);
-      } catch (error) {
-        console.error("Error retrieving data: ", error.message)
-      }      
+        const res = await fetch(
+          `https://excuser-three.vercel.app/v1/excuse/${category}`
+        );
+        const data = await res.json();
+
+        setExcuse(data[0]);
+      } catch {
+        console.error("error fetching data");
+      }
     };
 
-    getFacts();
-  }, []);
-
-  const fetchFactsFromServer = async () => {
-    try {
-      const res = await fetch(`http://localhost:5000/cat-facts`);
-      if (!res.ok) {
-        throw new Error('Failed to fetch data from server');
-      }
-      const data = res.json();
-      return data;
-    } catch {
-      console.error("Data not fetched from server");
-      return [];
+    if (category) {
+      fetchExcuse();
+      setCategory("");
     }
-  };
+  }, [category]);
 
-  const deleteCatFact = async (id) => {
-    // delete from DATABASE
-    await fetch(`http://localhost:5000/cat-facts/${id}`, {
-      method: "DELETE",
-    });
-
-    // delete from UI
-    setCatFacts(catFacts.filter((cat) => cat.id !== id));
-  };
+  
 
   return (
-    <div className="">
-      <GenerateCatFact
-        generate={generateCatFact}
-        catFacts={catFacts}
-        onDelete={deleteCatFact}
-      />
+    <div className="container">
+      <div>
+        {categories.map((category) => (
+          <button key={category} onClick={() => selectCategory(category)}>
+            {category}
+          </button>
+        ))}
+        <br />
+        <p>{excuse.excuse}</p>
+        <p>{excuse.category}</p>
+      </div>
     </div>
   );
 }

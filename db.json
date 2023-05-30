@@ -1,184 +1,29 @@
 {
   "cat-facts": [
     {
-      "fact": "Kittens who are taken along on short, trouble-free car trips to town tend to make good passengers when they get older. They get used to the sounds and motions of traveling and make less connection between the car and the visits to the vet.",
-      "length": 239,
-      "id": 5
+      "fact": "Cats bury their feces to cover their trails from predators.",
+      "length": 59,
+      "id": 1
     },
     {
-      "fact": "Cats make about 100 different sounds. Dogs make only about 10.",
-      "length": 62,
-      "id": 7
+      "fact": "Cats control the outer ear using 32 muscles; humans use 6",
+      "length": 57,
+      "id": 2
     },
     {
-      "fact": "There are more than 500 million domestic cats in the world, with approximately 40 recognized breeds.",
-      "length": 100,
-      "id": 8
+      "fact": "A kitten will typically weigh about 3 ounces at birth.  The typical male housecat will weigh between  7 and 9 pounds, slightly less for female housecats.",
+      "length": 153,
+      "id": 3
     },
     {
-      "fact": "Cats are North America’s most popular pets: there are 73 million cats compared to 63 million dogs. Over 30% of households in North America own a cat.",
-      "length": 149,
-      "id": 9
-    },
-    {
-      "fact": "The Egyptian Mau is probably the oldest breed of cat. In fact, the breed is so ancient that its name is the Egyptian word for “cat.”",
-      "length": 132,
-      "id": 10
-    },
-    {
-      "fact": "While many cats enjoy milk, it will give some cats diarrhea.",
-      "length": 60,
-      "id": 11
-    },
-    {
-      "fact": "Unlike dogs, cats do not have a sweet tooth. Scientists believe this is due to a mutation in a key taste receptor.",
-      "length": 114,
-      "id": 12
-    },
-    {
-      "fact": "The longest living cat on record according to the Guinness Book belongs to the late Creme Puff of Austin, Texas who lived to the ripe old age of 38 years and 3 days!",
-      "length": 165,
-      "id": 13
-    },
-    {
-      "fact": "There are more than 500 million domestic cats in the world, with approximately 40 recognized breeds.",
-      "length": 100,
-      "id": 14
-    },
-    {
-      "fact": "Cats only use their meows to talk to humans, not each other. The only time they meow to communicate with other felines is when they are kittens to signal to their mother.",
-      "length": 170,
-      "id": 15
-    },
-    {
-      "fact": "All cats have claws, and all except the cheetah sheath them when at rest.",
-      "length": 73,
-      "id": 16
-    },
-    {
-      "fact": "A healthy cat has a temperature between 38 and 39 degrees Celcius.",
-      "length": 66,
-      "id": 17
-    },
-    {
-      "fact": "The Cat Fanciers Association (CFA) recognizes 44 breeds of cats.",
-      "length": 64,
-      "id": 18
-    },
-    {
-      "fact": "In Siam, the cat was so revered that one rode in a chariot at the head of a parade celebrating the new king.",
-      "length": 108,
-      "id": 19
-    },
-    {
-      "fact": "A cat cannot see directly under its nose.",
-      "length": 41,
-      "id": 20
-    },
-    {
-      "fact": "A cat has more bones than a human; humans have 206, but the cat has 230 (some cites list 245 bones, and state that bones may fuse together as the cat ages).",
-      "length": 156,
-      "id": 21
-    },
-    {
-      "fact": "Cats and kittens should be acquired in pairs whenever possible as cat families interact best in pairs.",
-      "length": 102,
-      "id": 22
-    },
-    {
-      "fact": "The ability of a cat to find its way home is called “psi-traveling.” Experts think cats either use the angle of the sunlight to find their way or that cats have magnetized cells in their brains that act as compasses.",
-      "length": 216,
-      "id": 23
-    },
-    {
-      "fact": "A sexually-active feral tom-cat \\owns\\\" an area of about three square miles and \\\"\"sprays\\\"\" to mark his territory with strong smelling urine.\"\"\"",
-      "length": 145,
-      "id": 24
-    },
-    {
-      "fact": "A cat rubs against people not only to be affectionate but also to mark out its territory with scent glands around its face. The tail area and paws also carry the cat’s scent.",
-      "length": 174,
-      "id": 25
-    },
-    {
-      "fact": "Most cats had short hair until about 100 years ago, when it became fashionable to own cats and experiment with breeding.",
-      "length": 120,
-      "id": 26
-    },
-    {
-      "fact": "Cats should not be fed tuna exclusively, as it lacks taurine, an essential nutrient required for good feline health.  Make sure you have the proper Pet supplies to keep your cat happy and healthy.",
-      "length": 196,
-      "id": 27
-    },
-    {
-      "fact": "Cats are extremely sensitive to vibrations. Cats are said to detect earthquake tremors 10 or 15 minutes before humans can.",
-      "length": 122,
-      "id": 28
-    },
-    {
-      "fact": "The domestic cat is the only species able to hold its tail vertically while walking. You can also learn about your cat's present state of mind by observing the posture of his tail.",
-      "length": 180,
-      "id": 29
-    },
-    {
-      "fact": "The chlorine in fresh tap water irritates sensitive parts of the cat's nose. Let tap water sit for 24 hours before giving it to a cat.",
-      "length": 134,
-      "id": 30
-    },
-    {
-      "fact": "The smallest wildcat today is the Black-footed cat. The females are less than 20 inches (50 cm) long and can weigh as little as 2.5 lbs (1.2 kg).",
-      "length": 145,
-      "id": 31
+      "fact": "In just 7 years, one un-spayed female cat and one un-neutered male cat and their offspring can result in 420,000 kittens.",
+      "length": 121,
+      "id": 4
     },
     {
       "fact": "Long, muscular hind legs enable snow leopards to leap seven times their own body length in a single bound.",
       "length": 106,
-      "id": 32
-    },
-    {
-      "fact": "All cats have three sets of long hairs that are sensitive to pressure - whiskers, eyebrows,and the hairs between their paw pads.",
-      "length": 128,
-      "id": 33
-    },
-    {
-      "fact": "Isaac Newton invented the cat flap. Newton was experimenting in a pitch-black room. Spithead, one of his cats, kept opening the door and wrecking his experiment. The cat flap kept both Newton and Spithead happy.",
-      "length": 211,
-      "id": 34
-    },
-    {
-      "fact": "Cats spend nearly 1/3 of their waking hours cleaning themselves.",
-      "length": 64,
-      "id": 35
-    },
-    {
-      "fact": "Edward Lear, author of \\The Owl and the Pussycat\\\"\", is said to have had his new house in San Remo built to exactly the same specification as his previous residence, so that his much-loved tabby, Foss, would immediately feel at home.\"\"\"",
-      "length": 236,
-      "id": 36
-    },
-    {
-      "fact": "Unlike humans, cats cannot detect sweetness which likely explains why they are not drawn to it at all.",
-      "length": 102,
-      "id": 37
-    },
-    {
-      "fact": "Cats' eyes shine in the dark because of the tapetum, a reflective layer in the eye, which acts like a mirror.",
-      "length": 109,
-      "id": 38
-    },
-    {
-      "fact": "In 1987, cats overtook dogs as the number one pet in America (about 50 million cats resided in 24 million homes in 1986). About 37% of American homes today have at least one cat.",
-      "length": 178,
-      "id": 39
-    },
-    {
-      "fact": "The average lifespan of an outdoor-only cat is about 3 to 5 years while an indoor-only cat can live 16 years or much longer.",
-      "length": 124,
-      "id": 40
-    },
-    {
-      "fact": "Normal body temperature for a cat is 102 degrees F.",
-      "length": 51,
-      "id": 41
+      "id": 6
     }
   ]
 }

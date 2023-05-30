@@ -1,14 +1,20 @@
-import CatFact from "./CatFact"
+import CatFact from "./CatFact";
 
-const GenerateCatFact = ({generate, catFacts, onDelete }) => {
+const GenerateCatFact = ({ generate, catFacts, onDelete }) => {
   return (
-    <>
-      <button onClick={generate}>Generate Cat Fact</button>
-      {catFacts.map((cat) => (
-        <CatFact key={cat.id} cat={cat} onDelete={onDelete}/>
-      ))}
-    </>
-  )
-}
+    <div className="container">
+      <button className="btn btn-primary mb-3" onClick={generate}>
+        Generate Cat Fact
+      </button>
+      <div className="row">
+        {catFacts.map((cat) => (
+          <div className="col-md-6" key={cat.id}>
+            <CatFact  cat={cat} onDelete={onDelete} />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
 
-export default GenerateCatFact
+export default GenerateCatFact;
