@@ -1,7 +1,8 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, createContext } from "react";
 import GenerateCatFacts from "./components/GenerateCatFacts";
 
-
+// use of context Api
+export const AppContext = createContext();
 
 function CatApp() {
   const [catFacts, setCatFacts] = useState([]);
@@ -68,11 +69,13 @@ function CatApp() {
 
   return (
     <div className="container">
+      <AppContext.Provider value={{catFacts, generate: generateCatFact, onDelete: deleteCatFact }} >
       <GenerateCatFacts
-        generate={generateCatFact}
-        catFacts={catFacts}
-        onDelete={deleteCatFact}
+        // generate={generateCatFact}
+        // catFacts={catFacts}
+        // onDelete={deleteCatFact}
       />
+      </AppContext.Provider>
     </div>
   );
 }

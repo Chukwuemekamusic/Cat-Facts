@@ -1,7 +1,10 @@
 import React from 'react'
 import { FaTimes } from "react-icons/fa";
+import { useContext } from 'react';
+import { AppContext } from "../CatApp";
 
-const CatFacts = ({ cat, onDelete }) => {
+const CatFacts = ({cat}) => {
+const {onDelete} = useContext(AppContext)
   return (
     <>
     <h3>
