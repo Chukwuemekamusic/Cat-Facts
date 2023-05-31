@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 // import Axios from "axios";
 
-// import Excuser from "./components/Excuser";
+import Excuser from "./components/Excuser";
 
 function App() {
   const categories = ["party", "family", "office"];
@@ -11,7 +11,7 @@ function App() {
   const [excuse, setExcuse] = useState([]);
 
   const selectCategory = (name) => {
-    setCategory(name)
+    setCategory(name);
     console.log(category);
   };
 
@@ -35,20 +35,13 @@ function App() {
     }
   }, [category]);
 
-  
-
   return (
     <div className="container">
-      <div>
-        {categories.map((category) => (
-          <button key={category} onClick={() => selectCategory(category)}>
-            {category}
-          </button>
-        ))}
-        <br />
-        <p>{excuse.excuse}</p>
-        <p>{excuse.category}</p>
-      </div>
+      <Excuser
+        categories={categories}
+        selectCategory={selectCategory}
+        excuse={excuse}
+      />
     </div>
   );
 }
