@@ -6,19 +6,14 @@
       "id": 1
     },
     {
-      "fact": "The cat's footpads absorb the shocks of the landing when the cat jumps.",
-      "length": 71,
-      "id": 2
-    },
-    {
       "fact": "A cat sees about 6 times better than a human at night, and needs 1/6 the amount of of light that a human does - it has a layer of extra reflecting cells which absorb light.",
       "length": 172,
       "id": 3
     },
     {
-      "fact": "A cat's smell is their strongest sense, and they rely on this leading sense to identify people and objects; a feline's sense of smell is 14x better than a human's.",
-      "length": 163,
-      "id": 4
+      "fact": "While many parts of Europe and North America consider the black cat a sign of bad luck, in Britain and Australia, black cats are considered lucky.",
+      "length": 146,
+      "id": 5
     }
   ]
 }

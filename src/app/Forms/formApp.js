@@ -1,8 +1,10 @@
-import React from 'react'
+import Forms from "./Forms"
 
 function formApp() {
   return (
-    <div>formApp</div>
+    <div>
+      <Forms/>
+    </div>
   )
 }
 
